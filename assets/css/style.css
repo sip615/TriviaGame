@@ -1,22 +1,32 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/background.jpg");
+}
 .container{
     width: 900px;
     height: 900px;
-    border: 5px solid black;
+    border: 5px solid #70937f;
+    border-radius: 3px;
     margin: 15px auto;
     padding: 15px;
+    background-color: #a3c982;
 }
 .container .question{
     margin: 20px;
+    color: #1884d1;
 }
 .container .options{
     margin-left: 25px;
+    color: #1884d1;
 }
 .container .submitButton{
-    margin: 10px 16px;
+    margin: 20px;
     border-radius: 3px;
     border: 2px solid black;
     float: left;
     padding: 4px;
+    background-color:#1884d1;
+    color: white;
 }
 .holder{
     margin-left: auto;
@@ -24,5 +34,33 @@
 }
 h1{
     font-size: 70px;
+    color: #4a19d1;
 }
-
+#scorediv{
+    margin: 20px;
+    color: #1884d1;
+    background-color: #4a19d1;
+    border-radius: 3px;
+    color: white;
+    float: left;
+    padding: 7px;
+}
+#thisTimer{
+    margin: 20px;
+    border-radius: 3px;
+    border: 2px solid black;
+    float: left;
+    padding: 4px;
+    background-color:#1884d1;
+    color: white;
+}
+.container div p{
+    margin-top: 24px;
+    float: left;
+}
+.container div h4{
+    float: left;
+}
+#correctAnswers{
+    float: left;
+}
